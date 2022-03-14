@@ -20,4 +20,9 @@ This repo serves to present a few methods of saliency detection, specifically fo
 ##  ML Method
 - We train a UNet fully convolutional neural network
 - Our inputs and output are an image and a segmentation of the same size
--
+- After training, we can validate and use the system to segment images
+- We can then use the map to create a blur mask and apply it
+
+### Issues
+
+- When the system fails, issue identification isn't possible given the ML system
